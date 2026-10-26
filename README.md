@@ -9,7 +9,9 @@ npm install
 npm run dev
 ```
 
-Open [http://sushansapkota.com](http://sushansapkota.com).
+Open [http://sushansapkota.com](http://sushansapkota.com) when that domain points here.
+
+Publishing through GitHub Pages: push `main` to GitHub. The workflow in `.github/workflows/pages.yml` builds the site and deploys it. A repository named `yourname.github.io` is served at `https://yourname.github.io`. Any other repository is served at `https://yourname.github.io/repository-name`. After the domain is registered, set `sushansapkota.com` as the custom domain in the repository Pages settings and add GitHub’s A records at the registrar.
 
 No API keys or database are required.
 

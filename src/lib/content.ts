@@ -5,8 +5,10 @@
 
 export const siteUrl = "http://sushansapkota.com";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export const resume = {
-  href: "/Sushan-Sapkota-Resume.pdf",
+  href: `${basePath}/Sushan-Sapkota-Resume.pdf`,
   filename: "Sushan-Sapkota-Resume.pdf",
 } as const;
 

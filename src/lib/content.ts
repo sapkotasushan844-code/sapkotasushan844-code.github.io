@@ -3,7 +3,7 @@
  * Update this file when the resume changes. Do not add claims that are not on it.
  */
 
-export const siteUrl = "https://sushansapkota.com";
+export const siteUrl = "http://sushansapkota.com";
 
 export const resume = {
   href: "/Sushan-Sapkota-Resume.pdf",

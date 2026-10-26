@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-Open [http://127.0.0.1:3847](http://127.0.0.1:3847).
+Open [http://127.0.0.1:3847](http://127.0.0.1:3847). The public site is [sushansapkota.com](https://sushansapkota.com).
 
 No API keys or database are required.
 

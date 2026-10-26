@@ -3,6 +3,8 @@
  * Update this file when the resume changes. Do not add claims that are not on it.
  */
 
+export const siteUrl = "https://sushansapkota.com";
+
 export const resume = {
   href: "/Sushan-Sapkota-Resume.pdf",
   filename: "Sushan-Sapkota-Resume.pdf",
@@ -14,7 +16,7 @@ export const profile = {
   lastName: "Sapkota",
   role: "Mechanical Engineering Student",
   degree: "Bachelor of Science in Mechanical Engineering",
-  graduation: "Expected May 2027",
+  graduation: "Expected May 2028",
   school: "Howard University",
   location: "Washington, D.C.",
   status: "Seeking an engineering internship",
@@ -43,7 +45,7 @@ export const focusAreas = [
 export const glance = [
   {
     label: "Graduation",
-    value: "May 2027",
+    value: "May 2028",
     detail: "B.S. Mechanical Engineering, Howard University",
   },
   {
@@ -78,7 +80,7 @@ export const education = [
     school: "Howard University",
     location: "Washington, D.C.",
     credential: "Bachelor of Science in Mechanical Engineering",
-    status: "Expected May 2027",
+    status: "Expected May 2028",
     gpa: null,
     honors: null,
     coursework: [

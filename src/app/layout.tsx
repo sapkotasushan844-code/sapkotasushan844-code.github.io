@@ -3,7 +3,7 @@ import { IBM_Plex_Mono, Outfit, Syne } from "next/font/google";
 import { Background } from "@/components/background";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
-import { profile } from "@/lib/content";
+import { profile, siteUrl } from "@/lib/content";
 import "./globals.css";
 
 const syne = Syne({
@@ -28,12 +28,14 @@ const plex = IBM_Plex_Mono({
 });
 
 const description =
-  "Mechanical Engineering student at Howard University seeking an engineering internship. Portfolio of Sushan Sapkota, Washington, D.C. Expected graduation May 2027.";
+  "Mechanical Engineering student at Howard University seeking an engineering internship. Portfolio of Sushan Sapkota, Washington, D.C. Expected graduation May 2028.";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Sushan Sapkota · Mechanical Engineering",
   description,
   authors: [{ name: profile.name }],
+  alternates: { canonical: "/" },
   keywords: [
     "Sushan Sapkota",
     "Mechanical Engineering",
@@ -48,6 +50,7 @@ export const metadata: Metadata = {
     description,
     type: "website",
     locale: "en_US",
+    url: siteUrl,
   },
 };
 
@@ -60,6 +63,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: profile.name,
+  url: siteUrl,
   email: profile.email,
   telephone: "+1-240-926-4543",
   jobTitle: profile.role,

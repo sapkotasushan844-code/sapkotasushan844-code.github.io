@@ -1,4 +1,4 @@
-import { profile, resume } from "@/lib/content";
+import { profile, resume, siteUrl } from "@/lib/content";
 
 export function Footer() {
   return (
@@ -22,6 +22,9 @@ export function Footer() {
           </a>
           <a className="quiet-link" href={resume.href} target="_blank" rel="noreferrer">
             View resume
+          </a>
+          <a className="quiet-link" href={siteUrl}>
+            {siteUrl.replace("https://", "")}
           </a>
           <a className="quiet-link" href="#top">
             Back to top
